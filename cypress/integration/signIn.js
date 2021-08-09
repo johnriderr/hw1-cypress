@@ -1,7 +1,6 @@
 /// <reference types="cypress" />
 
 
-
 describe('sign in test', () => {
     it('go to main', () => {
         cy.visit('http://localhost:1667/#/') // conduit prod is half-dead, in the docker same selectors
